@@ -1,78 +1,141 @@
 fileFormatVersion: 2
 guid: 7166c387502014892b69bef26f88b978
 PluginImporter:
-  serializedVersion: 1
+  externalObjects: {}
+  serializedVersion: 2
   iconMap: {}
   executionOrder: {}
   isPreloaded: 0
+  isOverridable: 0
   platformData:
-    Android:
+  - first:
+      '': BlackBerry
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      '': OSXIntel
+    second:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+  - first:
+      '': OSXIntel64
+    second:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+  - first:
+      '': SamsungTV
+    second:
+      enabled: 1
+      settings:
+        STV_MODEL: STANDARD_13
+  - first:
+      '': Web
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      '': WebStreamed
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Android: Android
+    second:
       enabled: 0
       settings:
         CPU: AnyCPU
-    Any:
+  - first:
+      Any: 
+    second:
       enabled: 0
       settings: {}
-    BlackBerry:
-      enabled: 1
-      settings: {}
-    Editor:
+  - first:
+      Editor: Editor
+    second:
       enabled: 0
       settings:
         CPU: AnyCPU
         DefaultValueInitialized: true
         OS: AnyOS
-    Linux:
+  - first:
+      Facebook: WebGL
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Facebook: Win
+    second:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+  - first:
+      Facebook: Win64
+    second:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+  - first:
+      Standalone: Linux
+    second:
       enabled: 1
       settings:
         CPU: x86
-    Linux64:
+  - first:
+      Standalone: Linux64
+    second:
       enabled: 1
       settings:
         CPU: x86_64
-    LinuxUniversal:
+  - first:
+      Standalone: LinuxUniversal
+    second:
       enabled: 1
-      settings: {}
-    OSXIntel:
+      settings:
+        CPU: 
+  - first:
+      Standalone: OSXUniversal
+    second:
+      enabled: 1
+      settings:
+        CPU: 
+  - first:
+      Standalone: Win
+    second:
       enabled: 1
       settings:
         CPU: AnyCPU
-    OSXIntel64:
+  - first:
+      Standalone: Win64
+    second:
       enabled: 1
       settings:
         CPU: AnyCPU
-    OSXUniversal:
+  - first:
+      Tizen: Tizen
+    second:
       enabled: 1
       settings: {}
-    SamsungTV:
-      enabled: 1
-      settings:
-        STV_MODEL: STANDARD_13
-    Tizen:
+  - first:
+      WebGL: WebGL
+    second:
       enabled: 1
       settings: {}
-    Web:
-      enabled: 1
-      settings: {}
-    WebGL:
-      enabled: 1
-      settings: {}
-    WebStreamed:
-      enabled: 1
-      settings: {}
-    Win:
-      enabled: 1
-      settings:
-        CPU: AnyCPU
-    Win64:
-      enabled: 1
-      settings:
-        CPU: AnyCPU
-    iOS:
+  - first:
+      Windows Store Apps: WindowsStoreApps
+    second:
       enabled: 0
       settings:
-        CompileFlags:
-        FrameworkDependencies:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+        CPU: AnyCPU
+  - first:
+      iPhone: iOS
+    second:
+      enabled: 0
+      settings:
+        CompileFlags: 
+        FrameworkDependencies: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
